@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = PathDependencies::VERSION
   spec.authors       = ["Luke Horvat"]
   spec.email         = ["lukehorvat@gmail.com"]
-  spec.summary       = %q{Ruby gem for defining dependencies that must be available on the PATH.}
-  spec.description   = %q{Ruby gem for defining dependencies that must be available on the PATH in order for your Rails application to run successfully.}
+  spec.summary       = %q{Ruby gem for defining which binaries/commands must be available on the PATH in order for your Rails application to function properly.}
+  spec.description   = %q{Ruby gem for defining which binaries/commands must be available on the PATH in order for your Rails application to function properly.}
   spec.homepage      = "https://github.com/lukehorvat/path-dependencies"
   spec.license       = "MIT"
   spec.files         = `git ls-files -z`.split("\x0")

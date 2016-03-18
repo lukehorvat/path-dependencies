@@ -4,7 +4,7 @@ module PathDependencies
       config.path_dependencies.select do |dependency|
         !system("which #{dependency} &>/dev/null")
       end.each do |dependency|
-        raise "Required dependency '#{dependency}' is not available on the PATH."
+        raise "Required binary/command '#{dependency}' is not available on the PATH."
       end
     end
   end
